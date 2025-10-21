@@ -39,8 +39,7 @@ body{
     width: 100vh;
 
 }
-.cover{
-}
+
 .cover-img{
     width: 100%;
     border-radius: 10px;
@@ -96,6 +95,8 @@ h3{
 
 .ing-ul li {
     padding-left: 20px;
+    font-family: outfitRegular;
+
 }
 .ing-ul li::marker {
     color: hsl(14, 45%, 36%);
@@ -103,7 +104,51 @@ h3{
 
 .line {
     background-color: hsl(24, 5%, 18%);
-    height: 1px;
     width: 100%;
     margin: 20px 0px;
+    border: 1px solid hsl(27, 5%, 64%);
+}
+.ins {
+    width: 100%;
+}
+
+.ins ol {
+    padding-left: 20px;
+}
+.ins ol li {
+    padding-left: 20px;
+    font-family: outfitRegular;
+}
+.ins ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.nut{
+    width: 100%;
+}
+
+.table{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.table-line{
+    margin-top: -5px;
+}
+
+.right p {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.attribution{
+    margin-top: 15px;
 }
